@@ -1,1 +1,1 @@
-Testing Terraform Cloud trigger
+Trigger test after saving settings
