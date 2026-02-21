@@ -1,0 +1,7 @@
+name: HRTEAMSAFE
+owners:
+  - HR.team
+permissions:
+  - Read
+  - Write
+  - List
