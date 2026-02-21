@@ -1,0 +1,7 @@
+name: FinanceSafe
+owners:
+  - finance.team
+permissions:
+  - Read
+  - Write
+  - List
