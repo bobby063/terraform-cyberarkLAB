@@ -1,14 +1,14 @@
 locals {
-  safe_files = fileset("${path.module}/safes", "*.yaml")
-
-  safes = {
-    for file in local.safe_files :
-    file => yamldecode(file("${path.module}/safes/${file}"))
-  }
+  # Load safes from YAML file
+  safes = yamldecode(file("${path.module}/safes.yaml")).safes
 }
 
 module "safe" {
-  for_each = local.safes
-  source   = "./modules/safe"
-  safe     = each.value
+  source = "./modules/safe"
+
+  # Create one module instance per safe
+  for_each = { for s in local.safes : s.name => s }
+
+  safe_name   = each.value.name
+  description = each.value.description
 }
