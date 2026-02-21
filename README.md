@@ -1,1 +1,1 @@
-Trigger test after saving settings again
+Trigger test after saving settings
