@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Output files
+generated/
+
+# OS junk
+.DS_Store
+Thumbs.db

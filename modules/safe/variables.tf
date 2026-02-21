@@ -1,0 +1,3 @@
+variable "safe" {
+  type = any
+}

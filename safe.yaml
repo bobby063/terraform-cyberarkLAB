@@ -1,0 +1,5 @@
+name: MyFirstSafe
+owners: 
+ - bobby 
+permissions: 
+ - Read - Write
