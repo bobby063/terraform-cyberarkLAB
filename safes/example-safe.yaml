@@ -1,0 +1,6 @@
+name: ExampleSafe
+owners:
+  - example.owner
+permissions:
+  - Read
+  - Write
