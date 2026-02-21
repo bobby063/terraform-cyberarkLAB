@@ -1,0 +1,7 @@
+safes:
+  - name: "finance-safe"
+    description: "Finance department safe"
+  - name: "hr-safe"
+    description: "HR department safe"
+  - name: "it-safe"
+    description: "IT department safe"
