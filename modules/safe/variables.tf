@@ -1,3 +1,7 @@
-variable "safe" {
-  type = any
+variable "safe_name" {
+  type = string
+}
+
+variable "description" {
+  type = string
 }
